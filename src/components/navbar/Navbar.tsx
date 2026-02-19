@@ -17,7 +17,7 @@ function Navbar() {
           Nova Postagem
         </li>
 
-        <li className=" bg-amber-700 text-white rounded-xl  text-center px-3 py-2 opacity-80 ">
+        <li className=" bg-orange-700 text-white rounded-xl  text-center px-3 py-2 opacity-80 ">
           Cadastrar
         </li>
       </ol>
