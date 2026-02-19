@@ -1,24 +1,20 @@
+import Button from "../ui/Button";
+
 function Navbar() {
   return (
     <nav>
-      <ol className="flex justify-around items-center  ">
-        <li className=" hover:bg-green-800 hover:opacity-60 hover:text-white rounded-xl  text-center px-3 py-2 ">
-          Início
+      <ol className="flex justify-around items-center text-sm gap-2 ">
+        <li>
+          <Button text={"Início"} path="" theme="navigation" />
         </li>
-        <li className=" hover:bg-green-800 hover:opacity-60 hover:text-white rounded-xl  text-center px-3 py-2">
-          Entrar
+        <li>
+          <Button text={"Entrar"} path="" theme="navigation" />
         </li>
-
-        <li className=" hover:bg-green-800 hover:opacity-60 hover:text-white rounded-xl  text-center px-3 py-2">
-          Temas
+        <li>
+          <Button text={"Temas"} path="" theme="navigation" />
         </li>
-
-        <li className=" hover:bg-green-800 hover:opacity-60 hover:text-white rounded-xl  text-center px-3 py-2">
-          Nova Postagem
-        </li>
-
-        <li className=" bg-orange-700 text-white rounded-xl  text-center px-3 py-2 opacity-80 ">
-          Cadastrar
+        <li>
+          <Button text={"Cadastrar"} path="" theme="primary" />
         </li>
       </ol>
     </nav>
