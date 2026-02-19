@@ -7,8 +7,12 @@ function Footer() {
 
       <p>Me encontre nas redes sociais</p>
       <div className="flex justify-center gap-4">
-        <LinkedinLogoIcon size={32} weight="bold" />
-        <GithubLogoIcon size={32} weight="bold" />
+        <a href="https://www.linkedin.com/in/indio-medeiros/" target="_blank">
+          <LinkedinLogoIcon size={32} weight="bold" />
+        </a>
+        <a href="https://github.com/indiomedeiros" target="_blank">
+          <GithubLogoIcon size={32} weight="bold" />
+        </a>
       </div>
     </footer>
   );
